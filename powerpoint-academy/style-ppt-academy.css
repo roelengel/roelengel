@@ -1,0 +1,432 @@
+/* CSS Document      donkere tint nieuw: #1C1C1C  donkere tint ##153131  lichte tint #E4D0B3  pink: ##B26E63  grey background: #f2f2f2 */
+
+@font-face {font-family: newsreader-bold; src: url('../_fonts/Newsreader_60pt-Bold.ttf'); format("truetype");} 
+@font-face {font-family: newsreader-extralight; src: url('../_fonts/Newsreader_60pt-ExtraLight.ttf'); format("truetype");} 
+
+
+body{background-color: #ffffff;}
+
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+/* DESKTOP DESKTOP DESKTOP DESKTOP/*/
+
+/* HEADER/*/
+#header-D{width:100%;  background-color:#1C1C1C; }
+#header-D-content{width: 870px; margin: auto; text-align: center; color: #ffffff;}
+#header-D-content-title{font-family: poppins-bold; font-size: 44px; color: #ffffff;}
+#header-D-content-subtitle{font-family: poppins-extralight; font-size: 24px; }
+#header-D-content-text{width: 650px; font-size: 18px; text-align: center; margin:auto;}
+#header-D-image{width: 1280px; margin:auto; }
+
+/* Chat box*/
+
+#chat-D{width:430px; height: 100px;  position:fixed; bottom: 2%; right: 1.5%; z-index:997;}
+#chat-D-ballon{width: 350px; height: 70px; margin-top: 15px; background-color: #B15C4E; border-radius: 35px 35px 0px 35px;float:left; position: relative;z-index: 999;}
+  #chat-D-ballon-tekst{width: 310px; margin-left: 25px; margin-top:7px; font-family: poppins-light; font-size: 18px; color:#ffffff;}
+#chat-D-foto{width: 100px; height: 100px; margin-left:-20px; float:left; position: relative;z-index: 998;}
+
+/* SUMMARY ON TOP/*/
+#summary-D{width:100%; background-color: #eeeeee; }
+#summary-D-content{width: 1280px; margin: auto; text-align: center; color:#000000;}
+#summary-D-content-title{width: 800px; text-align: center; margin:auto;}
+#summary-D-content-text{width: 540px; font-size: 18px; text-align: center; margin:auto;}
+
+/* WAT GA JE LEREN/*/
+#watgajeleren-D{width:100%; background-color: #eeeeee;}
+#watgajeleren-D-content{width: 1280px; margin: auto; }
+#watgajeleren-D-blok-rechts{width:1080px; height: 600px; margin-left: 200px; background-color: #ffffff; border-radius: 40px;}
+#watgajeleren-D-blok-rechts-titel{margin-left: -200px; padding-top: 50px;font-family: newsreader-bold;font-size:30px;}
+#watgajeleren-D-blok-links{width:1080px; height: 600px; float:left; margin-left: 0px; background-color: #ffffff; border-radius: 40px;}
+#watgajeleren-D-blok-links-titel{width: 500px; float: left; margin-left: -300px; padding-top: 50px;text-align:right; font-family: newsreader-bold;font-size:30px;}
+.storytelling{background-image: url('../_images/ppt-academy/storytelling.png'); background-position: right bottom; background-size: 450px; background-repeat: no-repeat;}
+.slide-opbouwen{background-image: url('../_images/ppt-academy/slide-opbouwen.png'); background-position: right bottom; background-size: 450px; background-repeat: no-repeat;}
+.slide-mooi{background-image: url('../_images/ppt-academy/slide-mooi.png'); background-position: right bottom; background-size: 450px; background-repeat: no-repeat;}
+
+#watgajeleren-D-subtext-rechts{width:600px; margin-left:440px; text-align:center; }
+#watgajeleren-D-subtext-links{width:600px; margin-left:240px; text-align:center; }
+
+/* storytelling/*/
+#watgajeleren-D-storytelling{width:562px; height: 500px; margin:auto; }
+#slide-small-D{width: 170px; height: 100px; border: 2px solid #000000; border-radius: 10px; float:left; background-color:#ffffff;}
+  #slide-small-D-text1{width: 25px; height: 5px; margin-left: 12px; margin-top: 12px; background-color:#000000; float:left;}
+  #slide-small-D-text2{width: 60px; height: 5px; margin-left: 6px; margin-top: 12px; background-color:#000000; float:left;}
+  #slide-small-D-text3{width: 17px; height: 5px; margin-left: 6px; margin-top: 12px; background-color:#000000;float:left;}
+  #slide-small-D-text4{width: 55px; height: 5px; margin-left: 12px; margin-top: 6px; background-color:#000000; float:left;}
+  #slide-small-D-text5{width: 20px; height: 5px; margin-left: 6px; margin-top: 6px; background-color:#000000;float:left;}
+#slide-small-D-space{width: 20px; height:50px;  float:left;}
+#slide-small-D-space2{width: 93px; height:50px; float:left;}
+#slide-small-D-grey-empty{width: 170px; height: 100px; border: 2px solid #F6F6F6; border-radius: 10px; float:left; background-color:#F6F6F6;}
+
+.slide-small-D-ani1{animation-duration: 4s;animation-iteration-count: infinite; animation-name: slide-small-D-1;animation-timing-function: ease;}
+@keyframes slide-small-D-1{
+	   0%   {transform: translateX(70px) translateY(-45px);}
+	   50%  {transform: translateX(0px) translateY(0px);}
+	   100% {transform: translateX(70px) translateY(-45px);} 
+}
+.slide-small-D-ani2{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-small-D-2;animation-timing-function: ease;}
+@keyframes slide-small-D-2{
+	   0%   {transform: translateX(0px) translateY(0px);}
+	   30%   {transform: translateX(0px) translateY(0px);}
+	   50%  {transform: translateX(194px) translateY(0px);}
+	   70% {transform: translateX(0px) translateY(0px);} 
+	   100% {transform: translateX(0px) translateY(0px);} 
+}
+.slide-small-D-ani3{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-small-D-3;animation-timing-function: ease;}
+@keyframes slide-small-D-3{
+	   0%   {transform: translateX(0px) translateY(0px);}
+	   30%   {transform: translateX(0px) translateY(0px);}
+	   50%  {transform: translateX(-194px) translateY(0px);}
+	   70% {transform: translateX(0px) translateY(0px);} 
+	   100% {transform: translateX(0px) translateY(0px);} 
+}
+
+/* slide opbouwen/*/
+#watgajeleren-D-slide-opbouwen{width:650px; height: 400px; margin-left: 80px;margin-top:125px; background-color: #ffffff; border: 2px solid #000000; border-radius: 20px; }
+#slide-D-text-container{width:100%; clear:both;}
+  #slide-D-text1{width: 133px; height: 18px; margin-left: 30px; margin-top: 30px; background-color:#000000; float:left;}
+  #slide-D-text2{width: 200px; height: 18px; margin-left: 15px; margin-top: 30px; background-color:#000000; float:left;}
+  #slide-D-text3{width: 87px; height: 18px; margin-left: 15px; margin-top: 30px; background-color:#000000;float:left;}
+  #slide-D-text4{width: 85px; height: 18px; margin-left: 30px; margin-top: 10px; background-color:#000000; float:left; }
+  #slide-D-text5{width: 180px; height: 18px; margin-left: 15px; margin-top: 10px; background-color:#000000;float:left;}
+#slide-D-block-container{width: 590px; margin:auto; background-color:red;}
+#slide-D-block{width:160px; float:left;}
+  #slide-D-block-image{width: 100%; height: 150px; background-color: #F6F6F6; text-align:center;}
+  #slide-D-block-title{width: 100%; height: 20px; margin-top: 15px; color: #000000; font-family: poppins-medium; font-size: 16px;}
+  #slide-D-block-tags{width: 100%; margin-top: 10px; font-family: poppins-medium; color: #A7A7A7; font-size: 12px;}
+  #slide-D-block-tag{width: 45px; height: 21px; background-color: #000000; color: #ffffff; text-align:center; float:left;}
+  #slide-D-block-tag-space{width: 5px; float: left; }
+#slide-D-block-space{width:55px; float:left;}
+
+.slide-D-ani1{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-D-1;animation-timing-function: ease;}
+@keyframes slide-D-1{
+	   0%   {transform: translateX(0px) translateY(-50px); opacity: 0;}
+	   10%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   80% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   100% {transform: translateX(0px) translateY(-50px); opacity: 0;} 
+}
+.slide-D-ani2{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-D-2;animation-timing-function: ease;}
+@keyframes slide-D-2{
+	   0%   {transform: translateX(0px) translateY(-70px); opacity: 0;}
+	   13%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   83% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   100% {transform: translateX(0px) translateY(-70px); opacity: 0;} 
+}
+.slide-D-ani3{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-D-3;animation-timing-function: ease;}
+@keyframes slide-D-3{
+	   0%   {transform: translateX(-215px) translateY(0px); opacity: 0;}
+	   15%   {transform: translateX(-215px) translateY(0px); opacity: 0;}
+	   25%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   70% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   80% {transform: translateX(-215px) translateY(0px); opacity: 0;} 
+	   100% {transform: translateX(-215px) translateY(0px); opacity: 0;} 
+}
+.slide-D-ani4{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-D-4;animation-timing-function: ease;}
+@keyframes slide-D-4{
+	   0%   {transform: translateX(-430px) translateY(0px); opacity: 0;}
+	   18%   {transform: translateX(-430px) translateY(0px); opacity: 0;}
+	   28%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   69% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   79% {transform: translateX(-430px) translateY(0px); opacity: 0;} 
+	   100% {transform: translateX(-430px) translateY(0px); opacity: 0;} 
+}
+
+/* slide designen/*/
+#watgajeleren-D-slide-designen{width:650px; height: 400px; margin-left: 80px;margin-top:40px; background-color: #ffffff; border: 2px solid #000000; border-radius: 20px; }
+#slide-D-block2{width:160px; float:left;}
+  #slide-D-block2-image{width: 100%; height: 150px;  text-align:left;}
+    #slide-D-block2-image-circlebg{width: 100px; height: 100px; margin-left: 50px; }
+    #slide-D-block2-image-circletext{width: 100px; margin-left: 50px; margin-top:-60px; font-family: newsreader-bold; font-size: 25px; color:#ffffff; text-align:center;}
+    .blob-D1{fill: #2A206D; width: 100px; height: 100px; }
+    .blob-D2{fill: #000000; width: 100px; height: 100px; }
+    .blob-D3{fill: #E1821D; width: 100px; height: 100px; }
+    #slide-D-block2-image-image{width: 100%; margin-top:-80px; }
+  #slide-D-block2-title{width: 100%; height: 20px; margin-top: 25px; color: #000000; font-family: newsreader-bold; font-size: 18px;}
+  #slide-D-block2-tags{width: 100%; margin-top: 10px; font-family: poppins-medium; color: #A7A7A7; font-size: 12px;}
+  #slide-D-block2-tag1{width: 45px; height: 21px; background-color: #2A206D; border-radius: 30px; color: #ffffff; text-align:center; float:left;}
+  #slide-D-block2-tag2{width: 45px; height: 21px; background-color: #000000; border-radius: 30px; color: #ffffff; text-align:center; float:left;}
+  #slide-D-block2-tag3{width: 45px; height: 21px; background-color: #E1821D; border-radius: 30px; color: #ffffff; text-align:center; float:left;}
+
+.blik-D-bounce-ani1{animation-duration: 4s;animation-iteration-count: infinite; animation-name: blik-D-bounce1;animation-timing-function: ease;}
+@keyframes blik-D-bounce1{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+.blik-D-bounce-ani2{animation-duration: 3s;animation-iteration-count: infinite; animation-name: blik-D-bounce2;animation-timing-function: ease;}
+@keyframes blik-D-bounce2{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+.blik-D-bounce-ani3{animation-duration: 4.5s;animation-iteration-count: infinite; animation-name: blik-D-bounce3;animation-timing-function: ease;}
+@keyframes blik-D-bounce3{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+
+/* REVIEW/*/
+#review-D{width:100%; height: 360px; background-color: #eeeeee; }
+#review-D-content{width: 1280px; margin: auto; text-align: center; color:#000000;}
+#review-D-block{width:880px; height: 280px; margin:auto; background-color: #E4D0B3; border-radius: 20px;}
+#review-D-block-text{width: 490px; margin:auto; font-size: 22px;}
+#review-D-block-persoon{width: 490px; margin:auto;}
+
+/* PROGRAMMA/*/
+#programma-D{width:100%;  background-color: #ffffff; margin-top: 50px;}
+#programma-D-content{width: 1280px; margin: auto; text-align: left; color:#000000;}
+#programma-D-1{width: 250px; float:left; font-family: poppins-bold; font-size: 30px;}
+#programma-D-2{width: 880px; margin-left: 150px; float:left;}
+#programma-D-dagdeel{width:100%;}
+#programma-D-2a{width:370px; float:left;}
+  #programma-D-2a-bol{width:32px; height: 32px; margin-top: 10px; float:left; border: 1px solid #000000;border-radius:32px;}
+  #programma-D-2a-titel{width:300px; float:left; margin-left: 20px; }
+#programma-D-2b{width:510px; float:left;}
+  #programma-D-2b-bol{width:22px; height: 22px; margin-top: 3px; float:left; border: 1px solid #000000;border-radius:32px;}
+  #programma-D-2b-tekst{width:460px; float:left; margin-left: 20px; font-size: 14px; }
+.onderdeel-D{font-family: poppins-bold; font-size: 22px;}
+.programmapart-D{font-family: poppins-bold; font-size: 18px;}
+
+/* PRIJS/*/
+#prijs-D-anchor{width:100%; height:120px; clear:both;}
+
+#prijs-D{width:100%;  background-color: #1C1C1C; }
+#prijs-D-content{width: 1280px; margin: auto; text-align: left; color:#000000;}
+#prijs-D-1{width: 250px; float:left; font-family: poppins-bold; font-size: 30px; color: #ffffff; }
+#prijs-D-2{width: 880px; margin-left: 150px; float:left; color:#ffffff;}
+#prijs-D-2-input{width:100%; clear:both;}
+	#prijs-D-2-input1{width: 200px; float:left; margin-top:16px;}
+	#prijs-D-2-input2{width: 75px; float:left; }
+	#prijs-D-2-input3{width: 200px; float:left; margin-left: 20px; }
+#prijs-D-2-tabel{width: 880px;}
+#prijs-D-2-tabel-total{width: 880px; font-family: poppins-bold; }
+#prijs-D-2-tabel-total-deelnemer{width: 880px; font-family: poppins-bold; font-size:30px;}
+	#prijs-D-2-tabel1{width: 600px; float:left;}
+	#prijs-D-2-tabel2{width: 50px; float:left;}
+	#prijs-D-2-tabel3{width: 110px; float:left;}
+	#prijs-D-2-tabel4{width: 120px; float:left; text-align: right;}
+#prijs-D-2-tabel-line{width: 100%; height: 1px; background-color:#ffffff; clear:both;}
+#prijs-D-2-tag{width: 400px; height: 195px; margin-left: 480px; background-image: url('../_images/ppt-academy/price-tag.png'); background-size: 400px;}
+#prijs-D-2-tag-tekst{width: 150px; margin-left: 190px; padding-top: 70px; rotate: -15deg; text-align:center; color: #000000;}
+
+/* CONTACT/*/
+#contact-D{width:100%;  background-color: #B26E63; }
+#contact-D-content{width: 1280px; margin: auto; text-align: left; color:#ffffff;}
+#contact-D-1{width: 250px; float:left;margin-left: 150px; }
+#contact-D-2{width: 880px; float:left; color:#ffffff; text-align:left;}
+
+#contact-D-2-title{width: 450px;  font-family: poppins-bold; font-size: 50px; color:#ffffff; }
+#contact-D-2-text{width: 450px; font-size: 18px; text-align: left; margin-top:20px; }
+
+
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* MOBIEL  MOBIEL  MOBIEL  MOBIEL/*/
+/* CSS Document      donkere tint nieuw: #1C1C1C  donkere tint ##153131  lichte tint #E4D0B3  pink: ##B26E63  grey background: #f2f2f2 */
+
+/* Chat box*/
+
+#chat-M{width:290px; height: 60px;  position:fixed; bottom: 2%; right: 2%; z-index:997; animation: chatbox 4s; animation-iteration-count: 1; }
+@keyframes chatbox{0%   { transform: translateY(200px);  } 50%   { transform: translateY(200px);  }  100% { transform: translateY(0px);  }}
+#chat-M-ballon{width: 240px; height: 60px;  background-color: #B26E63; border-radius: 35px 35px 0px 35px;float:left; position: relative;z-index: 999;}
+  #chat-M-ballon-tekst{width: 200px;  margin-left: 20px; margin-top:10px; font-family: poppins-light; font-size: 13px; color:#ffffff;}
+#chat-M-foto{width: 60px; height: 60px; margin-left:-10px; float:left; position: relative;z-index: 998;}
+
+
+/* MOBILE HEADER*/
+#header-academy-M{width:100%; background-color: #1C1C1C; color:#ffffff;}
+#header-academy-M-content{width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+
+#header-summary-M{width:100%; background-color: #eeeeee;}
+#header-summary-M-content{width:90%; margin-left:5%; margin-right:5%; text-align:center; }
+#anchor-links-M{width:100%; height: 60px; border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;}
+#anchor-links-M-link{width:33%; height: 60px; float:left; align-items: center; display: flex; text-align:center; justify-content: center; text-decoration: underline;}
+
+
+/* WAT GA JE LEREN*/
+#watgajeleren-M-anchor{width:100%; height:50px; clear:both;}
+#watgajeleren-M{width:100%; background-color: #eeeeee; }
+#watgajeleren-M-content{width:90%; margin-left:5%; margin-right:5%; text-align:center;}
+#slide-M{width:100%; height: 200px; border-radius:15px; background-color:#ffffff;}
+#watgajeleren-M-titel{font-family: newsreader-bold;font-size:24px;line-height:30px;margin-top:20px;}
+#watgajeleren-M-text{font-size:14px;margin-top:15px;}
+
+.storytelling-M{background-image: url('../_images/ppt-academy/storytelling.png'); background-position: right bottom; background-size: 50%; background-repeat: no-repeat;}
+.slide-opbouw-M{background-image: url('../_images/ppt-academy/slide-opbouwen.png'); background-position: right bottom; background-size: 50%; background-repeat: no-repeat;}
+.slide-design-M{background-image: url('../_images/ppt-academy/slide-mooi.png'); background-position: right bottom; background-size: 50%; background-repeat: no-repeat;}
+
+/* storytelling*/
+#slide-small-M{width: 20%; height: 37px; background-color:#ffffff; padding-top:3px; border:1px solid #000000; border-radius: 5px; float:left;}
+	#slide-small-M-text1{width: 15%; height: 3px; margin-left:5px; margin-top:2px;  float:left;background-color:#000000;}
+	#slide-small-M-text2{width: 30%; height: 3px; margin-left:5px; margin-top:2px;  float:left;background-color:#000000;}
+	#slide-small-M-text3{width: 20%; height: 3px; margin-left:5px; margin-top:2px;  float:left;background-color:#000000;}
+	#slide-small-M-text4{width: 28%; height: 3px; margin-left:5px; margin-top:2px;  float:left;background-color:#000000;}
+	#slide-small-M-text5{width: 17%; height: 3px; margin-left:5px; margin-top:2px;  float:left;background-color:#000000;}
+#slide-small-M-grey-empty{width:20%; height: 40px; background-color: #eeeeee; border-radius:5px; float:left;}
+  #slide-small-M-ingrey{width: 100%; height: 40px; background-color:#ffffff; padding-top:3px; border:1px solid #000000; border-radius: 5px; float:left;}
+#slide-small-M-spaceXL{width: 27.5%; height: 40px; float:left;}
+#slide-small-M-spaceL{width: 15%; height: 40px; float:left;}
+#slide-small-M-spaceS{width: 5%; height: 40px; float:left;}
+
+.slide-small-M-ani1{animation-duration: 4s;animation-iteration-count: infinite; animation-name: slide-small-M-1;animation-timing-function: ease;}
+@keyframes slide-small-M-1{
+	   0%   {transform: translateX(30px) translateY(-25px);}
+	   50%  {transform: translateX(0px) translateY(0px);}
+	   100% {transform: translateX(30px) translateY(-25px);} 
+}
+.slide-small-M-ani2{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-small-M-2;animation-timing-function: ease;}
+@keyframes slide-small-M-2{
+	   0%   {transform: translateX(0px) translateY(0px);}
+	   30%   {transform: translateX(0px) translateY(0px);}
+	   50%  {transform: translateX(125%) translateY(0px);}
+	   70% {transform: translateX(0px) translateY(0px);} 
+	   100% {transform: translateX(0px) translateY(0px);} 
+}
+.slide-small-M-ani3{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-small-M-3;animation-timing-function: ease;}
+@keyframes slide-small-M-3{
+	   0%   {transform: translateX(0px) translateY(0px);}
+	   30%   {transform: translateX(0px) translateY(0px);}
+	   50%  {transform: translateX(-125%) translateY(0px);}
+	   70% {transform: translateX(0px) translateY(0px);} 
+	   100% {transform: translateX(0px) translateY(0px);} 
+}
+
+/* slide opbouw & slide design*/
+#slide-large-M-title{width:90%; margin-left:5%; height:40px; padding-top:10px; }
+	#slide-large-M-text1{width: 19%; height: 7px; margin-top:5px;  float:left;background-color:#000000;}
+	#slide-large-M-text2{width: 42%; height: 7px; margin-left:5px; margin-top:5px;  float:left;background-color:#000000;}
+	#slide-large-M-text3{width: 24%; height: 7px; margin-left:5px; margin-top:5px;  float:left;background-color:#000000;}
+	#slide-large-M-text4{width: 28%; height: 7px;  margin-top:5px;  float:left;background-color:#000000;}
+	#slide-large-M-text5{width: 17%; height: 7px; margin-left:5px; margin-top:5px;  float:left;background-color:#000000;}
+#slide-large-M-content{width:90%; margin-left:3%; margin-top:3px;  }
+#slide-large-M-kolom{width: 26%; float:left; background-color:#ffffff; padding: 2%; border-radius: 5px;}
+	#slide-large-M-kolom-image{width:100%; height:80px; background-color: #F6F6F6; text-align:center;}
+	#slide-large-M-kolom-image2{width:100%; margin-left:-25px; height:80px; text-align:center;}
+	#slide-large-M-kolom-text{width:100%; text-align:left; font-size:12px;}
+	#slide-large-M-kolom-text2{width:100%; text-align:left; font-size:12px;font-family: newsreader-bold;}
+
+	#slide-large-M-kolom-text-woord1{width:20%; float:left; height:9px; background-color:#000000;}
+	#slide-large-M-kolom-text-woord2{width:20%; margin-left:4%; float:left;height:9px; background-color:#000000;}
+#slide-large-M-kolom-space{width: 5%; float:left; }
+
+.slide-M-ani1{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-M-1;animation-timing-function: ease;}
+@keyframes slide-M-1{
+	   0%   {transform: translateX(0px) translateY(-30px); opacity: 0;}
+	   10%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   80% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   100% {transform: translateX(0px) translateY(-30px); opacity: 0;} 
+}
+.slide-M-ani3{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-M-3;animation-timing-function: ease;}
+@keyframes slide-M-3{
+	   0%   {transform: translateX(-100%) translateY(0px); opacity: 0;}
+	   15%   {transform: translateX(-100%) translateY(0px); opacity: 0;}
+	   25%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   70% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   80% {transform: translateX(-100%) translateY(0px); opacity: 0;} 
+	   100% {transform: translateX(-100%) translateY(0px); opacity: 0;} 
+}
+.slide-M-ani4{animation-duration: 7s;animation-iteration-count: infinite; animation-name: slide-M-4;animation-timing-function: ease;}
+@keyframes slide-M-4{
+	   0%   {transform: translateX(-200%) translateY(0px); opacity: 0;}
+	   18%   {transform: translateX(-200%) translateY(0px); opacity: 0;}
+	   28%   {transform: translateX(0px) translateY(0px); opacity: 100;}
+	   69% {transform: translateX(0px) translateY(0px); opacity: 100;} 
+	   79% {transform: translateX(-200%) translateY(0px); opacity: 0;} 
+	   100% {transform: translateX(-200%) translateY(0px); opacity: 0;} 
+}
+
+/* addtioneel voor slide design*/
+#slide-large-M-kolom-blik1{width: 26%; float:left; background-color:#e3e2ec; padding: 2%; border-radius: 5px; }
+	#slide-large-M-kolom-text-blik1-woord1{width:20%; float:left; height:9px; background-color:#2a206d; border-radius: 15px;}
+	#slide-large-M-kolom-text-blik1-woord2{width:20%; margin-left:4%; float:left;height:9px; background-color:#2a206d;border-radius: 15px;}
+#slide-large-M-kolom-blik2{width: 26%; float:left; background-color:#e1e1e1; padding: 2%; border-radius: 5px;}
+	#slide-large-M-kolom-text-blik2-woord1{width:20%; float:left; height:9px; background-color:#000; border-radius: 15px;}
+	#slide-large-M-kolom-text-blik2-woord2{width:20%; margin-left:4%; float:left;height:9px; background-color:#000000;border-radius: 15px;}
+#slide-large-M-kolom-blik3{width: 26%; float:left; background-color:#fbecdd; padding: 2%; border-radius: 5px;}
+	#slide-large-M-kolom-text-blik3-woord1{width:20%; float:left; height:9px; background-color:#e1821d; border-radius: 15px;}
+	#slide-large-M-kolom-text-blik3-woord2{width:20%; margin-left:4%; float:left;height:9px; background-color:#e1821d;border-radius: 15px;}
+
+
+.blik-M-bounce-ani1{animation-duration: 4s;animation-iteration-count: infinite; animation-name: blik-M-bounce1;animation-timing-function: ease;}
+@keyframes blik-M-bounce1{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+.blik-M-bounce-ani2{animation-duration: 3s;animation-iteration-count: infinite; animation-name: blik-M-bounce2;animation-timing-function: ease;}
+@keyframes blik-M-bounce2{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+.blik-M-bounce-ani3{animation-duration: 4.5s;animation-iteration-count: infinite; animation-name: blik-M-bounce3;animation-timing-function: ease;}
+@keyframes blik-M-bounce3{
+	   0%   {transform: translateX(0px) translateY(0px); }
+	   50%   {transform: translateX(0px) translateY(-10px); }
+	   100% {transform: translateX(0px) translateY(0px); } 
+}
+
+
+/* REVIEW MOBIEL*/
+#review-M{width:100%; }
+#review-M-content{width:90%; margin-left:5%; margin-right:5%; background-color:#E4D0B3; border-radius:15px;font-size:14px;text-align:center;}
+
+
+/* PRIJS MOBIEL*/
+#prijs-M{width:100%; background-color: #1C1C1C; color:#ffffff; }
+#prijs-M-content{width:90%; margin-left:5%; margin-right:5%; text-align:left;}
+
+#prijs-M-anchor{width:100%; height:100px; clear:both;}
+#prijs-M-input{width:100%; clear:both; text-align:left;}
+	#prijs-M-input1{width: 40%; float:left; margin-top:6px; text-align:left;}
+	#prijs-M-input2{width: 17%; float:left; margin-left:3%;}
+	#prijs-M-input3{width: 37%; float:left;margin-left:3%; }
+#prijs-M-2-tabel{width: 100%; font-size:14px; text-align:left; }
+#prijs-M-2-tabel-total{width: 100%; font-family: poppins-bold;text-align:left; }
+#prijs-M-2-tabel-total-deelnemer{width: 100%; font-family: poppins-bold; font-size:20px; text-align:left;}
+	#prijs-M-2-tabel1{width: 50%; float:left;}
+	#prijs-M-2-tabel2{width: 10%; float:left; margin-left:2%;}
+	#prijs-M-2-tabel3{width: 15%; float:left;}
+	#prijs-M-2-tabel4{width: 23%; float:left; text-align: right;}
+	#prijs-M-2-tabel234{width: 50%; float:left; text-align: right;}
+#prijs-M-2-tabel-line{width: 100%; height: 1px; background-color:#ffffff; clear:both;}
+
+/* PROGRAMMA MOBIEL*/
+#programma-M-anchor{width:100%; height:100px; clear:both;}
+#programma-M{width:100%; background-color: #ffffff;  }
+#programma-M-content{width:90%; margin-left:5%; margin-right:5%; text-align:left;}
+
+#programma-M-2{width: 100%; margin-left: 150px; text-align:left;}
+#programma-M-dagdeel{width:100%; text-align:left;}
+#programma-M-2a{width:100%; text-align:left;}
+  #programma-M-2a-titel{width:100%; float:left; text-align:left; }
+#programma-M-2b{width:100%; text-align:left;}
+  #programma-M-2b-tekst{width:80%; float:left; margin-left: 10%;margin-top:20px; font-size: 14px; text-align:left;}
+.onderdeel-M{font-family: poppins-bold; font-size: 18px;}
+.programmapart-M{font-family: poppins-bold; font-size: 14px;}
+
+
+
+/* MOBILE KOFFIE*/
+#koffie-M{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-M-content{width: 90%; margin-left: 5%; margin-right: 5%; text-align: left; color:#ffffff;}
+  #koffie-M-content a{color:#ffffff; font-size:20px; font-family:poppins-medium; }
+  #koffie-M-content a:hover{color:#B26E63;}
+
+#koffie-M-logobarkop{width:90%;margin-left:5%; text-align: left; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-M-logobar{width:100%; clear:both;text-align:center;}
+.beige-logo-M{height:40px; float:left; margin-left:20px;margin-right:20px;margin-top:10px; margin-bottom:10px;}
+

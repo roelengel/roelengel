@@ -1,0 +1,219 @@
+/* CSS Document      donkere tint ###1C1C1C;  lichte tint #E4D0B3  pink: ##B26E63  grey background: #f2f2f2 */
+
+body{background-color: #ffffff;}
+
+/* SHOWREEL PROMO DESKTOP*/
+#showreel-promo-D{width:100px; height:92px;  position:fixed; bottom: 30px; right:20px;  z-index:997;}
+/* SHOWREEL PROMO MOBILE*/
+#showreel-promo-M{width:80px;  position:fixed; bottom: 15px; right:10px;  z-index:997;}
+
+
+.bg-white{background-color:#ffffff;}
+
+/* DESKTOP CASES OVERVIEW |||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+#cases-D{width: 100%; background-color: #ffffff; clear:both; }
+#cases-D-content{width: 1280px; margin:auto;  }
+#case-D-first{font-family: poppins-bold; font-size:50px; color: #000000; line-height: 1.1;}
+#case-D{width:290px; float:left; color:#ffffff; margin-top:20px; margin-bottom: 10px;}
+#case-D-client{font-family: poppins-bold; font-size: 18px; color: #000000; margin-top:20px; margin-left:10px;}
+
+
+#case-D-image{background-color:#cccccc;width:290px; height: 368px;margin-top:10px;
+  background-color: rgba(0, 0, 0, 0); /* geen overlay standaard */
+  background-blend-mode: darken; /* of multiply */
+  transition: background-color 0.3s ease;
+
+}
+#case-D-image:hover{ background-color: rgba(0, 0, 0, 0.4);}
+
+
+#case-D-title{width:80%;margin-left: 10px; font-family:poppins-light; color: #000000;font-size:16px; height: 120px;}
+#case-D-tags{width: 100%; height: 40px;  text-transform: lowercase;}
+#toon-alle-cases{width:950; margin-left: 330px; text-align:center;}
+.mar-left40{margin-left:40px;}
+#case-D-spacing{width:30px; float:left;}
+#case-D-spacing2{width:40px; float:left;}
+
+.case-D-logo{width:80px; margin-left:10px; margin-top: 278px;}
+
+.hovereffect{transition: transform .3s; /* Animation */}
+
+
+
+
+
+/* DESKTOP CASE INDEX PAGINA   FILTER   FILTER   FILTER*/
+#filter-D-top{width:100%;  clear:both;}
+#filter-D-top-titel{width:614px; float:left; }
+#filter-D-top-filters{width:640px;float:left; margin-top:33px; }
+
+
+#filter-D{width: 640px; height: 33px;clear:both;}
+#filter-D-item {width: 158px; height: 33px; border: 1px solid #B26E63; margin: 0px; float:left; background-color: #ffffff;color: #000000;text-align: center;text-decoration: none;display: inline-block;font-size: 16px; cursor: pointer;font-family: poppins-light; padding-top: 6px; margin-left:-1px; }
+#filter-D-item-active {width: 158px; height: 33px; border: 1px solid #B26E63; margin: 0px; float:left; background-color: #B26E63;color: #ffffff;text-align: center;text-decoration: none;display: inline-block;font-size: 16px; cursor: pointer;font-family: poppins-light; padding-top: 6px; }
+#filter-D-item:hover {background-color: #efe0de;  border: 1px solid #B26E63;color: #000000;}
+.filter-left{border-radius: 50px 0px 0px 50px;}
+.filter-right{border-radius: 0px 50px 50px 0px;}
+
+/* DESKTOP CASE DETAIL PAGINA */
+#case-detail-D{ width: 100%; height: 900px; background-color: #FFFFFF; clear:both;}
+#case-detail-D-content{width: 1280px; margin:auto;}
+#case-D-header-image{width:1280px; height:575px; clear:both; }
+#case-D-text{width:1180px; margin: auto; background-color:#ffffff; margin-top:-80px; }
+#case-D-text-1{width: 700px; font-size:18px; margin-left:40px; float:left; padding-top: 10px; color:#000000;}
+#case-D-text-2{width: 310px; margin-left:90px; float:left; margin-top: 40px; color: #000000;}
+  #case-D-text-2-icontext-container{width:310px; height: 30px; display: flex; align-items: center; clear:both; margin-top:20px; }
+  #case-D-text-2-icontext-icon{width: 50px; float:left; text-align: left;}
+  #case-D-text-2-icontext-text{width: 260px; float:left; text-align: left; }
+#case-D-text-2-element{width:100%;}
+#case-D-text-2-element-name{width:25%; float:left;}
+#case-D-text-2-element-content{width:75%; float:left;}
+
+#case-uitgebreid-half{width:615px; float:left; color:#000000;}
+.ml-50{margin-left:50px;}
+
+#case-uitgebreid-titels{width: 100%; font-family: poppins-extralight; font-size: 44px; margin-top:60px; margin-bottom: 80px; text-align:center;color:#000000;}
+#case-uitgebreid-subtitels{width: 415; margin-left:100px; font-family: poppins-light; font-size: 18px; margin-top:25px; margin-bottom: 75px;text-align:center;color:#000000;}
+#case-uitgebreid-subtitels-2{width: 420; margin-left:430px; font-family: poppins-light; font-size: 18px; margin-top:25px; margin-bottom: 60px;text-align:center;color:#000000;}
+#case-uitgebreid-subtitels-center{width: 500px; margin-left:390px; font-family: poppins-light; font-size: 18px; margin-top:25px; margin-bottom: 75px;text-align:center;color:#000000;}
+
+/* KOFFIE DESKTOP*/
+#koffie-D{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-D-content{width: 1280px; margin:auto; text-align: center; }
+#koffie-D-left{width: 400px; float:left; text-align:left; color:#868686; font-size:18px;}
+#koffie-D-right{width: 420px; margin-top:85px;margin-left:180px; float:left; text-align:left; color:#ffffff; font-size:36px; font-family: poppins-medium;}
+#koffie-D-right a{color:#ffffff;}
+#koffie-D-right a:hover{color:#B26E63;}
+
+
+#koffie-D-logobarkop{width:100%; text-align: center; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-D-logobar{width:100%; clear:both;}
+.beige-logo{height:60px; float:left; margin:20px;}
+.beige-logo-M{height:40px; float:left; margin-left:20px;margin-right:20px;margin-top:10px; margin-bottom:10px;}
+
+.animate-flicker1 {-webkit-animation: flickerAnimation1 5s infinite; -moz-animation: flickerAnimation1 5s infinite;  -o-animation: flickerAnimation1 5s infinite;   animation: flickerAnimation1 5s infinite;}
+@keyframes flickerAnimation1 {0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-o-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-moz-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-webkit-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+.animate-flicker2 {-webkit-animation: flickerAnimation1 6s infinite; -moz-animation: flickerAnimation1 6s infinite;  -o-animation: flickerAnimation1 6s infinite;   animation: flickerAnimation1 6 infinite;}
+.animate-flicker3 {-webkit-animation: flickerAnimation1 4s infinite; -moz-animation: flickerAnimation1 4s infinite;  -o-animation: flickerAnimation1 4s infinite;   animation: flickerAnimation1 4 infinite;}
+.animate-flicker4 {-webkit-animation: flickerAnimation1 7s infinite; -moz-animation: flickerAnimation1 7s infinite;  -o-animation: flickerAnimation1 7s infinite;   animation: flickerAnimation1 7 infinite;}
+.animate-flicker5 {-webkit-animation: flickerAnimation1 5.5s infinite; -moz-animation: flickerAnimation1 5.5s infinite;  -o-animation: flickerAnimation1 5.5s infinite;   animation: flickerAnimation1 8.5 infinite;}
+
+
+
+/* SHOWREEL PROMO MOBILE*/
+#meer-cases-bottom-button-M{width:30%; height: 28px; text-align:center; border-radius: 30px; background-color: #1C1C1C;  position:fixed; bottom: 25px; right:35%;  z-index:997; color:#ffffff; font-size:14px; padding-top:5px;  animation: meerbutton 4s; animation-iteration-count: 1;}
+@keyframes meerbutton{0%   { transform: translateY(200px);  } 50%   { transform: translateY(200px);  }  100% { transform: translateY(0px);  }}
+
+#meer-cases-bottom-button-M a{color:#ffffff;}
+#meer-cases-bottom-button-M a:hover{color:#ffffff;}
+
+/* MEER CASES*/
+#showreel-promo-M{width:80px;  position:fixed; bottom: 15px; right:10px;  z-index:997;}
+
+/* MOBIEL CASE INDEX GALLERY VIEW PAGINA */
+#case-gallery-M{width: 90%; margin-left:5%; margin-right: 5%; }
+#case-gallery-M-space{width:5%; float:left; }
+#case-gallery-M-item{width: 47.5%; float:left;}
+#case-gallery-M-photo{}
+#case-gallery-M-logo{margin-top:-70px;margin-left:10px; clear:both; width:100px; }
+
+#case-gallery-M-klant{margin-top: 22px;  font-family: poppins-bold; font-size:14px; color:#000000; clear:both; }
+#case-gallery-M-title{ height:100px; font-family: poppins-light; font-size:14px; color:#000000; clear:both; }
+
+#meer-cases-M{width: 100%; background-color: #ffffff;}
+#meer-cases-M-title{width: 90%; margin-left:5%; font-family: poppins-bold; font-size: 26px; color:#000000; }
+
+
+/* MOBILE CASE INDEX PAGINA   FILTER   FILTER   FILTER*/
+#filter-M{width: 90%; height: 33px; margin-left: 5%; clear:both;}
+#filter-M-item {width: 24.5%; height: 27px; border: 1px solid #B26E63; margin: 0px; margin-left:-1px; float:left; background-color: #ffffff;color: #000000;text-align: center;text-decoration: none;display: inline-block;font-size: 12px; cursor: pointer;font-family: poppins-light; padding-top: 6px; }
+#filter-M-item-active {width: 24.5%; height: 27px; border: 1px solid #B26E63; margin: 0px; margin-left:-1px;float:left; background-color: #B26E63;color: #ffffff;text-align: center;text-decoration: none;display: inline-block;font-size: 12px; cursor: pointer;font-family: poppins-light; padding-top: 6px; }
+#filter-M-item:hover {background-color: #ffffff;  border: 1px solid #B26E63;color: #B26E63;}
+.filter-left{border-radius: 50px 0px 0px 50px;}
+.filter-right{border-radius: 0px 50px 50px 0px;}
+
+
+
+/* MOBIEL CASE DETAIL PAGINA */
+#case-detail-M-container{width:100%; background-color:#ffffff;}
+#case-detail-M-photo{width:100%; clear:both;}
+#case-detail-M-titel{width: 90%; margin-left: 5%; margin-right: 5%;  clear:both; font-family: poppins-bold; font-size: 26px;line-height: 1.2;}
+#case-detail-M-details{width:90%; margin-left: 5%; margin-right: 5%;  ;clear:both; font-family: poppins-light; font-size: 16px;}
+#M-details-full{width: 100%;  margin-top:10px; margin-bottom:10px; display: flex; align-items: center; }
+  #M-details-half1{width: 80%;  margin-top:10px; margin-bottom:10px;  float:left; display: flex; align-items: center; }
+  #M-details-half2{width: 20%;  margin-top:10px; margin-bottom:10px; float:left;  display: flex; align-items: center; text-align: right;}
+#M-details-full2{width: 100%; font-size:14px;}
+  #M-details-full2-line{width: 100%; height:1 px; background-color:#cccccc; clear:both; margin-top:15px; margin-bottom:15px;}
+  #M-details-full2-name{width: 25%; float:left;}
+  #M-details-full2-content{width: 75%; float:left; }
+
+
+#case-detail-M-text{width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 20px; font-family: poppins-light; font-size: 16px;}
+#case-detail-M-extra{width: 100%;}
+
+	/* MOBIELE ANIMATIE VAN HORIZONTALE PPT IMPRESSIES */
+	#ppt-hor {width: 100%; background-position: top left; animation: mymove 10s infinite;}
+	@keyframes mymove {50% {background-position: top right;}}
+
+/* MOBIEL CASE UITGEBREIDE PAGINA'S */
+#case-uitgebreid-titels-M{width: 90%; margin-left: 5%; font-family: poppins-extralight; font-size: 30px; margin-top:20px; margin-bottom: 40px; text-align:center;color:#000000;}
+#case-uitgebreid-subtitels-M{width: 90%; margin-left:5%; font-family: poppins-light; font-size: 16px; margin-top:15px; margin-bottom: 45px;text-align:center;color:#000000;}
+
+
+/* MOBILE KOFFIE*/
+#koffie-M{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-M-content{width: 90%; margin-left: 5%; margin-right: 5%; text-align: left; color:#ffffff;}
+  #koffie-M-content a{color:#ffffff; font-size:20px; font-family:poppins-medium; }
+  #koffie-M-content a:hover{color:#B26E63;}
+
+#koffie-M-logobarkop{width:90%;margin-left:5%; text-align: left; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-M-logobar{width:100%; clear:both;text-align:center;}
+
+
+
+/* ANIMATE EFFECTS*/
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.animate-bottom-top{animation-duration: 1s;animation-name: animate-bottom-top;animation-timing-function: ease;}
+@keyframes animate-bottom-top{
+	   0%   { transform: translateY(-160px);   }
+	   100% { transform: translateX(0px); } 
+}
+.animate-bottom-top-L{animation-duration: 1s;animation-name: animate-bottom-top-L;animation-timing-function: ease;}
+@keyframes animate-bottom-top-L{
+	   0%   { transform: translateY(-300px);   }
+	   100% { transform: translateX(0px); } 
+}
+
+

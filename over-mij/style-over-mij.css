@@ -1,0 +1,71 @@
+/* CSS Document     donkere tint nieuw: ##1C1C1C  donkere tint ##153131  lichte tint #E4D0B3  pink: ##B26E63  grey background: #f2f2f2 */
+
+
+#header-overmij-D{ width: 100%; height: 700px;background-color: #ffffff; clear:both;}
+#header-overmij-D-content{width: 1280px; margin:auto; padding-top:105px; color: #000000;}
+#header-overmij-D-content-1{width:600px; float:left; padding-top:80px; font-size:18px;}
+#header-overmij-D-content-2{width:480px; float:left;margin-left: 200px; margin-top:50px; }
+
+
+#cv-D{ width: 100%; background-color: #ffffff; clear:both;}
+#cv-D-content{width: 1280px; margin:auto; padding-top:105px; color: #000000;}
+#cv-D-baan{width: 100%; margin-top:20px; margin-bottom:20px; clear:both;}
+   #cv-D-werkgever{width:100px; float:left;text-align:center; font-size:14px;}
+   #cv-D-cases-lijst{width:900px; float:left; margin-left:25px; }
+      #cv-D-case{width:100%; height:50px; display: flex; align-items: center; clear:both; margin-top:20px;}
+
+         #cv-D-case-logo{width:50px; float:left;}
+         #cv-D-case-text{width:800px; float:left; margin-left:15px; line-height: 1.2;}
+
+
+.logo-S{width: 100px;}
+.logo-XS{width: 50px;}
+
+.functie{font-family: poppins-bold; font-size:20px;}
+.bedrijf{font-family: poppins-light; font-size:16px;}
+	
+	
+
+
+/* KOFFIE */
+#koffie-D{ width: 100%; height: 500px; background-color: #000000; clear:both;}
+#koffie-D-content{width: 1280px; margin:auto; text-align: center; }
+#koffie-D-left{width: 400px; float:left; text-align:left; color:#868686; font-size:20px;}
+#koffie-D-right{width: 420px; margin-top:85px;margin-left:180px; float:left; text-align:left; color:#ffffff; font-size:36px; font-family: poppins-medium;}
+#koffie-D-right a{color:#ffffff;}
+#koffie-D-right a:hover{color:#B26E63;}
+
+
+
+/* MOBILE HEADER*/
+#header-overmij-M{width:100%;}
+#header-overmij-M-content{width:90%; margin-left:5%; margin-right:5%;}
+
+/* MOBILE CV*/
+#cv-M{ width: 100%; background-color: #ffffff; clear:both;}
+#cv-M-content{width: 90%; margin-left:5%; margin-right: 5%; color: #000000;}
+#cv-M-baan{width: 100%; margin-top:20px; margin-bottom:20px; clear:both;}
+   #cv-M-werkgever{width:25%; float:left;text-align:center; font-size:14px;}
+   #cv-M-space{width:5%; float:left;text-align:center;}
+   #cv-M-cases-lijst{width:70%; float:left;  }
+      #cv-M-case{width:100%; height:50px; display: flex; align-items: center; clear:both; margin-top:20px;}
+	
+         #cv-M-case-logo{width:20%; float:left;}
+         #cv-M-case-text{width:80%; float:left; font-size:14px; margin-left:15px; line-height: 1.2;}
+
+
+.logo-S-M{width: 70px;}
+.logo-XS{width: 50px;}
+
+.functie-M{font-family: poppins-bold; font-size:16px;}
+.bedrijf-M{font-family: poppins-light; font-size:14px;}
+
+
+/* MOBILE KOFFIE*/
+#koffie-M{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-M-content{width: 90%; margin-left: 5%; margin-right: 5%; text-align: left; color:#ffffff;}
+  #koffie-M-content a{color:#ffffff; font-size:20px; font-family:poppins-medium; }
+  #koffie-M-content a:hover{color:#B26E63;}
+
+#koffie-M-logobarkop{width:90%;margin-left:5%; text-align: left; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-M-logobar{width:100%; clear:both;text-align:center;}

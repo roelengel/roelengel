@@ -1,0 +1,39 @@
+/* CSS Document     donkere tint nieuw: ##1C1C1C   donkere tint #153131  lichte tint #E4D0B3    pink: ##B26E63   grey background: #f2f2f2 */
+body{background-color: #000000;}
+
+
+
+
+/* KOFFIE DESKTOP*/
+#koffie-D{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-D-content{width: 1280px; margin:auto; text-align: center; }
+#koffie-D-left{width: 400px; float:left; text-align:left; color:#868686; font-size:18px;}
+#koffie-D-right{width: 420px; margin-top:85px;margin-left:180px; float:left; text-align:left; color:#ffffff; font-size:36px; font-family: poppins-medium;}
+#koffie-D-right a{color:#ffffff;}
+#koffie-D-right a:hover{color:#B26E63;}
+
+
+#koffie-D-logobarkop{width:100%; text-align: center; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-D-logobar{width:100%; clear:both;}
+.beige-logo{height:60px; float:left; margin:20px;}
+.beige-logo-M{height:40px; float:left; margin-left:20px;margin-right:20px;margin-top:10px; margin-bottom:10px;}
+
+.animate-flicker1 {-webkit-animation: flickerAnimation1 5s infinite; -moz-animation: flickerAnimation1 5s infinite;  -o-animation: flickerAnimation1 5s infinite;   animation: flickerAnimation1 5s infinite;}
+@keyframes flickerAnimation1 {0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-o-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-moz-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+@-webkit-keyframes flickerAnimation1{  0%   { opacity:1; }  50%  { opacity:0.2; }  100% { opacity:1; }}
+.animate-flicker2 {-webkit-animation: flickerAnimation1 6s infinite; -moz-animation: flickerAnimation1 6s infinite;  -o-animation: flickerAnimation1 6s infinite;   animation: flickerAnimation1 6 infinite;}
+.animate-flicker3 {-webkit-animation: flickerAnimation1 4s infinite; -moz-animation: flickerAnimation1 4s infinite;  -o-animation: flickerAnimation1 4s infinite;   animation: flickerAnimation1 4 infinite;}
+.animate-flicker4 {-webkit-animation: flickerAnimation1 7s infinite; -moz-animation: flickerAnimation1 7s infinite;  -o-animation: flickerAnimation1 7s infinite;   animation: flickerAnimation1 7 infinite;}
+.animate-flicker5 {-webkit-animation: flickerAnimation1 5.5s infinite; -moz-animation: flickerAnimation1 5.5s infinite;  -o-animation: flickerAnimation1 5.5s infinite;   animation: flickerAnimation1 8.5 infinite;}
+
+
+/* MOBILE KOFFIE*/
+#koffie-M{ width: 100%;  background-color: #000000; clear:both;}
+#koffie-M-content{width: 90%; margin-left: 5%; margin-right: 5%; text-align: left; color:#ffffff;}
+  #koffie-M-content a{color:#ffffff; font-size:20px; font-family:poppins-medium; }
+  #koffie-M-content a:hover{color:#B26E63;}
+
+#koffie-M-logobarkop{width:90%;margin-left:5%; text-align: left; color:#ffffff; font-family: poppins-light; font-size: 16px;}
+#koffie-M-logobar{width:100%; clear:both;text-align:center;}
